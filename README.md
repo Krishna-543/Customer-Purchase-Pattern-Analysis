@@ -1,26 +1,26 @@
 # 📊 Customer Purchase Pattern Analysis Using Python
 
-## 📌 Project Overview
+## 📖 Overview
 
-This project analyzes customer purchasing behavior using an Online Retail dataset. The objective is to understand customer buying patterns, identify top-performing products and customers, analyze sales trends, and segment customers using **RFM (Recency, Frequency, Monetary) Analysis**.
+This project analyzes customer purchasing behavior using an Online Retail dataset. The analysis follows a complete data analytics workflow, including data cleaning, feature engineering, exploratory data analysis (EDA), customer segmentation using RFM analysis, and business insight generation.
 
-The project demonstrates the complete data analysis workflow, including data cleaning, feature engineering, exploratory data analysis (EDA), visualization, and customer segmentation.
-
----
-
-## 🎯 Project Objectives
-
-* Analyze customer purchasing behavior using transaction data.
-* Clean and preprocess the dataset.
-* Perform Exploratory Data Analysis (EDA).
-* Identify top-selling products and high-value customers.
-* Analyze monthly, daily, hourly, and country-wise sales trends.
-* Perform RFM Analysis for customer segmentation.
-* Generate actionable business insights to support business decisions.
+The goal is to help businesses understand customer purchasing patterns, identify high-value customers, discover sales trends, and support data-driven marketing and retention strategies.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🎯 Objectives
+
+* Analyze customer purchasing behavior from retail transaction data.
+* Clean and preprocess raw data for accurate analysis.
+* Perform exploratory data analysis (EDA).
+* Identify top customers, products, and countries by revenue.
+* Analyze monthly, daily, and hourly sales trends.
+* Segment customers using RFM (Recency, Frequency, Monetary) Analysis.
+* Generate actionable business insights for decision-making.
+
+---
+
+## 🛠️ Technologies Used
 
 * Python
 * Pandas
@@ -30,51 +30,57 @@ The project demonstrates the complete data analysis workflow, including data cle
 
 ---
 
-## 📂 Dataset Features
+## 📂 Dataset Information
 
-The dataset contains retail transaction information, including:
+The dataset contains retail transaction records with the following fields:
 
-* Invoice Number
-* Stock Code
-* Product Description
+* Invoice
+* StockCode
+* Description
 * Quantity
-* Invoice Date
-* Unit Price
+* InvoiceDate
+* Price
 * Customer ID
 * Country
 
 ---
 
-## 🔍 Data Preprocessing
+## 🧹 Data Preprocessing
 
 The following preprocessing steps were performed:
 
 * Removed missing values
 * Removed duplicate records
-* Removed cancelled orders (negative quantities)
-* Converted data types
-* Created a **Revenue** column
-* Extracted **Month**, **Day**, and **Hour** from the invoice date
+* Removed cancelled transactions
+* Converted appropriate data types
+* Created a Revenue column
+* Extracted Month, Day, and Hour from InvoiceDate
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## 📈 Exploratory Data Analysis
 
-The analysis includes:
+The project includes analysis of:
 
-* Customer Analysis
-* Product Analysis
-* Revenue Analysis
-* Country-wise Sales Analysis
-* Monthly Sales Trend
-* Daily Sales Trend
-* Hourly Sales Trend
+* Customer purchasing behavior
+* Product performance
+* Revenue trends
+* Country-wise sales
+* Monthly revenue
+* Daily revenue
+* Hourly revenue
 
 ---
 
 ## 👥 RFM Customer Segmentation
 
-Customers were segmented using **Recency**, **Frequency**, and **Monetary** values into the following categories:
+Customers were segmented based on:
+
+* **Recency** – How recently a customer made a purchase.
+* **Frequency** – How often a customer purchases.
+* **Monetary** – How much money a customer spends.
+
+Customer segments include:
 
 * 🏆 Champions
 * 💎 Loyal Customers
@@ -82,13 +88,11 @@ Customers were segmented using **Recency**, **Frequency**, and **Monetary** valu
 * ⚠️ At Risk
 * 😴 Lost Customers
 
-This segmentation helps businesses improve customer retention and develop targeted marketing strategies.
-
 ---
 
 ## 📊 Visualizations
 
-The project includes visualizations such as:
+The notebook includes visualizations for:
 
 * Monthly Revenue Trend
 * Top 10 Products by Revenue
@@ -97,17 +101,17 @@ The project includes visualizations such as:
 * Revenue by Hour
 * Revenue Distribution
 * Customer Segment Distribution
-* Frequency vs Monetary Analysis
+* Frequency vs Monetary Relationship
 
 ---
 
 ## 💡 Key Business Insights
 
-* Identified the products generating the highest revenue.
-* Identified the highest-value customers.
-* Analyzed purchasing patterns across different countries.
-* Discovered peak sales hours and monthly sales trends.
-* Segmented customers to support retention and marketing strategies.
+* Identified the highest revenue-generating products.
+* Identified high-value customers based on spending.
+* Analyzed country-wise revenue performance.
+* Discovered monthly and hourly purchasing trends.
+* Segmented customers to support targeted marketing and customer retention strategies.
 
 ---
 
@@ -117,22 +121,22 @@ The project includes visualizations such as:
 Customer-Purchase-Pattern-Analysis/
 │
 ├── Customer_Purchase_Pattern_Analysis.ipynb
-└──  README.md/
+├── README.md
 ```
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Enhancements
 
 * Build an interactive Power BI dashboard.
 * Develop a Streamlit web application.
-* Implement customer lifetime value (CLV) analysis.
+* Perform Customer Lifetime Value (CLV) analysis.
 * Build a sales forecasting model using machine learning.
 
 ---
 
 ## 👨‍💻 Author
 
-**Krishna Kalyan**
+**Krishna Kalyan Gangula**
 
-If you found this project useful, feel free to ⭐ the repository.
+If you found this project useful, consider giving the repository a ⭐.
