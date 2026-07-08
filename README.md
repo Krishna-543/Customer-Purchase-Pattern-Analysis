@@ -137,6 +137,6 @@ Customer-Purchase-Pattern-Analysis/
 
 ## 👨‍💻 Author
 
-**Krishna Kalyan Gangula**
+**Krishna Kalyan**
 
 If you found this project useful, consider giving the repository a ⭐.
