@@ -117,8 +117,7 @@ The project includes visualizations such as:
 Customer-Purchase-Pattern-Analysis/
 │
 ├── Customer_Purchase_Pattern_Analysis.ipynb
-├── README.md
-└── images/
+└──  README.md/
 ```
 
 ---
